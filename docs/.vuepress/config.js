@@ -14,6 +14,7 @@ module.exports = {
         ['meta', { name: 'keywords', content: 'hjg,前端,后台,vue,blog,vuepress-blog' }],
     ],
     theme: 'reco',
+    base:'/blog/',
     themeConfig: {
         type: 'blog',
         smoothScroll: true,
