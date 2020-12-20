@@ -1,8 +1,8 @@
 ---
 home: true
-# bgImage: '/banner.jpg'
+bgImage: '/banner4.jpg'
 bgImageStyle: {
-  height: '350px'
+  height: '500px'
 }
 isShowTitleInHome: true
 ---

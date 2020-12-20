@@ -44,6 +44,31 @@ export const siteData = {
   ],
   "pages": [
     {
+      "frontmatter": {
+        "layout": "TimeLines",
+        "title": "Timeline"
+      },
+      "regularPath": "/timeline/",
+      "key": "v-6319eb4e",
+      "path": "/timeline/"
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "bgImage": "/banner4.jpg",
+        "bgImageStyle": {
+          "height": "500px"
+        },
+        "isShowTitleInHome": true
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-1072a816",
+      "path": "/",
+      "lastUpdated": "12/20/2020, 8:29:43 PM"
+    },
+    {
       "title": "关于我",
       "frontmatter": {
         "title": "关于我",
@@ -63,30 +88,8 @@ export const siteData = {
           "title": "学习是没有止境的",
           "slug": "学习是没有止境的"
         }
-      ]
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "bgImageStyle": {
-          "height": "350px"
-        },
-        "isShowTitleInHome": true
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-1072a816",
-      "path": "/"
-    },
-    {
-      "frontmatter": {
-        "layout": "TimeLines",
-        "title": "Timeline"
-      },
-      "regularPath": "/timeline/",
-      "key": "v-6319eb4e",
-      "path": "/timeline/"
+      ],
+      "lastUpdated": "12/20/2020, 8:29:43 PM"
     },
     {
       "title": "Vuepress基于Valine的评论功能",
@@ -137,7 +140,8 @@ export const siteData = {
           "title": "扩展功能",
           "slug": "扩展功能"
         }
-      ]
+      ],
+      "lastUpdated": "12/20/2020, 8:29:43 PM"
     },
     {
       "frontmatter": {

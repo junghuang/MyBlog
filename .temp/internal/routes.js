@@ -9,20 +9,17 @@ import GlobalLayout from "D:\\FontEnd\\博客测试\\MyBlog\\node_modules\\@vuep
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-42485c56",
-    path: "/about/",
+    name: "v-6319eb4e",
+    path: "/timeline/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-42485c56").then(next)
+      ensureAsyncComponentsLoaded("TimeLines", "v-6319eb4e").then(next)
     },
+    meta: {"pid":"timeline","id":"timeline"}
   },
   {
-    path: "/about/index.html",
-    redirect: "/about/"
-  },
-  {
-    path: "/views/about/",
-    redirect: "/about/"
+    path: "/timeline/index.html",
+    redirect: "/timeline/"
   },
   {
     name: "v-1072a816",
@@ -37,17 +34,20 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-6319eb4e",
-    path: "/timeline/",
+    name: "v-42485c56",
+    path: "/about/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("TimeLines", "v-6319eb4e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-42485c56").then(next)
     },
-    meta: {"pid":"timeline","id":"timeline"}
   },
   {
-    path: "/timeline/index.html",
-    redirect: "/timeline/"
+    path: "/about/index.html",
+    redirect: "/about/"
+  },
+  {
+    path: "/views/about/",
+    redirect: "/about/"
   },
   {
     name: "v-219f4fa2",
